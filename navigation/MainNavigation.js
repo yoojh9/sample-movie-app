@@ -14,7 +14,10 @@ const MainNavigation = createStackNavigator(
     }
   },
   {
-    mode: "screen"
+    headerBackTitleVisible: false
+  },
+  {
+    headerMode: "screen"
   }
 );
 
